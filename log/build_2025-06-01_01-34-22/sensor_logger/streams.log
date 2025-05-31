@@ -1,0 +1,36 @@
+[0.554s] Invoking command in '/home/bagus/ichimonji/ros2-logger/src/sensor_logger': PYTHONPATH=/home/bagus/ichimonji/ros2-logger/build/sensor_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_logger build --build-base /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build install --record /home/bagus/ichimonji/ros2-logger/build/sensor_logger/install.log --single-version-externally-managed install_data
+[0.697s] running egg_info
+[0.697s] creating ../../build/sensor_logger/sensor_logger.egg-info
+[0.697s] writing ../../build/sensor_logger/sensor_logger.egg-info/PKG-INFO
+[0.698s] writing dependency_links to ../../build/sensor_logger/sensor_logger.egg-info/dependency_links.txt
+[0.698s] writing entry points to ../../build/sensor_logger/sensor_logger.egg-info/entry_points.txt
+[0.698s] writing requirements to ../../build/sensor_logger/sensor_logger.egg-info/requires.txt
+[0.698s] writing top-level names to ../../build/sensor_logger/sensor_logger.egg-info/top_level.txt
+[0.698s] writing manifest file '../../build/sensor_logger/sensor_logger.egg-info/SOURCES.txt'
+[0.699s] reading manifest file '../../build/sensor_logger/sensor_logger.egg-info/SOURCES.txt'
+[0.699s] writing manifest file '../../build/sensor_logger/sensor_logger.egg-info/SOURCES.txt'
+[0.699s] running build
+[0.699s] running build_py
+[0.699s] creating /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build
+[0.699s] creating /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib
+[0.699s] creating /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib/sensor_logger
+[0.700s] copying sensor_logger/__init__.py -> /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib/sensor_logger
+[0.700s] copying sensor_logger/sensor_log.py -> /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib/sensor_logger
+[0.700s] running install
+[0.700s] running install_lib
+[0.700s] creating /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger
+[0.700s] copying /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib/sensor_logger/__init__.py -> /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger
+[0.700s] copying /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib/sensor_logger/sensor_log.py -> /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger
+[0.700s] byte-compiling /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger/__init__.py to __init__.cpython-310.pyc
+[0.700s] byte-compiling /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger/sensor_log.py to sensor_log.cpython-310.pyc
+[0.701s] running install_data
+[0.701s] creating /home/bagus/ichimonji/ros2-logger/install/sensor_logger/share/ament_index
+[0.701s] creating /home/bagus/ichimonji/ros2-logger/install/sensor_logger/share/ament_index/resource_index
+[0.701s] creating /home/bagus/ichimonji/ros2-logger/install/sensor_logger/share/ament_index/resource_index/packages
+[0.701s] copying resource/sensor_logger -> /home/bagus/ichimonji/ros2-logger/install/sensor_logger/share/ament_index/resource_index/packages
+[0.701s] copying package.xml -> /home/bagus/ichimonji/ros2-logger/install/sensor_logger/share/sensor_logger
+[0.701s] running install_egg_info
+[0.702s] Copying ../../build/sensor_logger/sensor_logger.egg-info to /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger-0.0.0-py3.10.egg-info
+[0.702s] running install_scripts
+[0.716s] writing list of installed files to '/home/bagus/ichimonji/ros2-logger/build/sensor_logger/install.log'
+[0.748s] Invoked command in '/home/bagus/ichimonji/ros2-logger/src/sensor_logger' returned '0': PYTHONPATH=/home/bagus/ichimonji/ros2-logger/build/sensor_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_logger build --build-base /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build install --record /home/bagus/ichimonji/ros2-logger/build/sensor_logger/install.log --single-version-externally-managed install_data
