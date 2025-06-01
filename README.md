@@ -1,2 +1,2 @@
 # ros2-logger
-simple publisher and subscriber with ROS2
+Simple publisher and subscriber with ROS2. Simulating temperature and humidity sensor meassurements which read by a logger.
