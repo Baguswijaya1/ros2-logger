@@ -19,7 +19,7 @@ class SensorPublisher(Node):
         temp_msg.data = self.readtemp()
         hum_msg.data = self.readhum()
         
-        # kirim ke terminal
+        # kirim ke terminal     
         self.get_logger().info(f'temperature : {temp_msg.data}')
         self.get_logger().info(f'humidity L {hum_msg.data}')
 
@@ -37,8 +37,11 @@ class SensorPublisher(Node):
     
 def main(args=None):
     rclpy.init(args=args)
-    node = sensorPublisher()
+    node = SensorPublisher()
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
+if __name__=='__main__':
+    main()
     

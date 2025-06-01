@@ -8,18 +8,18 @@ class sensorLogger(Node):
         self.temp_sub = self.create_subscription(
             Float32,
             'temperature',
-            self.listener_callback,
+            self.temp_callback,
             10
         )
         self.hum_sub = self.create_subscription(
             Float32,
             'humidity',
-            self.listener_callback,
+            self.hum_callback,
             10
         )
     
     def temp_callback(self, temp_msg):
-        self.get_logger().info(f'received temperatre data: {temp_msg.data:.2f}')
+        self.get_logger().info(f'received temperature data: {temp_msg.data:.2f}')
         
     def hum_callback(self, hum_msg):
         self.get_logger().info(f'received humidity data: {hum_msg.data:.2f}')
@@ -30,3 +30,6 @@ def main(args=None):
     rclpy.spin(node)
     node.destroy_node()
     rclpy.shutdown()
+
+if __name__ == '__main__':
+    main()

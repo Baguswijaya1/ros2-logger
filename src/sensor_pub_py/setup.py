@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-        ],
-    },
+        'sensor_publisher = sensor_pub_py.sensor_pub:main',
+    ],
+}
+,
 )

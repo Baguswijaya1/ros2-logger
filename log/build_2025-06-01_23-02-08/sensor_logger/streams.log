@@ -1,0 +1,29 @@
+[0.526s] Invoking command in '/home/bagus/ichimonji/ros2-logger/src/sensor_logger': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/bagus/ichimonji/ros2-logger/build/sensor_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_logger build --build-base /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build install --record /home/bagus/ichimonji/ros2-logger/build/sensor_logger/install.log --single-version-externally-managed install_data
+[0.664s] running egg_info
+[0.665s] writing ../../build/sensor_logger/sensor_logger.egg-info/PKG-INFO
+[0.665s] writing dependency_links to ../../build/sensor_logger/sensor_logger.egg-info/dependency_links.txt
+[0.665s] writing entry points to ../../build/sensor_logger/sensor_logger.egg-info/entry_points.txt
+[0.665s] writing requirements to ../../build/sensor_logger/sensor_logger.egg-info/requires.txt
+[0.665s] writing top-level names to ../../build/sensor_logger/sensor_logger.egg-info/top_level.txt
+[0.666s] reading manifest file '../../build/sensor_logger/sensor_logger.egg-info/SOURCES.txt'
+[0.666s] writing manifest file '../../build/sensor_logger/sensor_logger.egg-info/SOURCES.txt'
+[0.666s] running build
+[0.666s] running build_py
+[0.666s] copying sensor_logger/sensor_log.py -> /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib/sensor_logger
+[0.667s] running install
+[0.667s] running install_lib
+[0.667s] copying /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build/lib/sensor_logger/sensor_log.py -> /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger
+[0.667s] byte-compiling /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger/sensor_log.py to sensor_log.cpython-310.pyc
+[0.668s]   File "/home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger/sensor_log.py", line 34
+[0.668s]     if __name__ = '__main__':
+[0.668s]        ^^^^^^^^^^^^^^^^^^^^^
+[0.668s] SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+[0.668s] 
+[0.668s] running install_data
+[0.669s] running install_egg_info
+[0.669s] removing '/home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger-0.0.0-py3.10.egg-info' (and everything under it)
+[0.669s] Copying ../../build/sensor_logger/sensor_logger.egg-info to /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger-0.0.0-py3.10.egg-info
+[0.670s] running install_scripts
+[0.690s] Installing sensor_logger script to /home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/sensor_logger
+[0.690s] writing list of installed files to '/home/bagus/ichimonji/ros2-logger/build/sensor_logger/install.log'
+[0.711s] Invoked command in '/home/bagus/ichimonji/ros2-logger/src/sensor_logger' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/bagus/ichimonji/ros2-logger/build/sensor_logger/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_logger build --build-base /home/bagus/ichimonji/ros2-logger/build/sensor_logger/build install --record /home/bagus/ichimonji/ros2-logger/build/sensor_logger/install.log --single-version-externally-managed install_data

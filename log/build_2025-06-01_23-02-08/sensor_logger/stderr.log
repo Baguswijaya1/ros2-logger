@@ -1,0 +1,5 @@
+  File "/home/bagus/ichimonji/ros2-logger/install/sensor_logger/lib/python3.10/site-packages/sensor_logger/sensor_log.py", line 34
+    if __name__ = '__main__':
+       ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
+

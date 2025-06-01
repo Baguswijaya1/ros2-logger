@@ -1,0 +1,21 @@
+[0.762s] Invoking command in '/home/bagus/ichimonji/ros2-logger/src/sensor_pub_py': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/bagus/ichimonji/ros2-logger/build/sensor_pub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bagus/ichimonji/ros2-logger/install/sensor_pub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_pub_py build --build-base /home/bagus/ichimonji/ros2-logger/build/sensor_pub_py/build install --record /home/bagus/ichimonji/ros2-logger/build/sensor_pub_py/install.log --single-version-externally-managed install_data
+[1.027s] running egg_info
+[1.027s] writing ../../build/sensor_pub_py/sensor_pub_py.egg-info/PKG-INFO
+[1.028s] writing dependency_links to ../../build/sensor_pub_py/sensor_pub_py.egg-info/dependency_links.txt
+[1.028s] writing entry points to ../../build/sensor_pub_py/sensor_pub_py.egg-info/entry_points.txt
+[1.028s] writing requirements to ../../build/sensor_pub_py/sensor_pub_py.egg-info/requires.txt
+[1.028s] writing top-level names to ../../build/sensor_pub_py/sensor_pub_py.egg-info/top_level.txt
+[1.030s] reading manifest file '../../build/sensor_pub_py/sensor_pub_py.egg-info/SOURCES.txt'
+[1.031s] writing manifest file '../../build/sensor_pub_py/sensor_pub_py.egg-info/SOURCES.txt'
+[1.031s] running build
+[1.031s] running build_py
+[1.031s] running install
+[1.031s] running install_lib
+[1.033s] running install_data
+[1.033s] running install_egg_info
+[1.035s] removing '/home/bagus/ichimonji/ros2-logger/install/sensor_pub_py/lib/python3.10/site-packages/sensor_pub_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.036s] Copying ../../build/sensor_pub_py/sensor_pub_py.egg-info to /home/bagus/ichimonji/ros2-logger/install/sensor_pub_py/lib/python3.10/site-packages/sensor_pub_py-0.0.0-py3.10.egg-info
+[1.037s] running install_scripts
+[1.068s] Installing sensor_publisher script to /home/bagus/ichimonji/ros2-logger/install/sensor_pub_py/lib/sensor_pub_py
+[1.068s] writing list of installed files to '/home/bagus/ichimonji/ros2-logger/build/sensor_pub_py/install.log'
+[1.098s] Invoked command in '/home/bagus/ichimonji/ros2-logger/src/sensor_pub_py' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/bagus/ichimonji/ros2-logger/build/sensor_pub_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bagus/ichimonji/ros2-logger/install/sensor_pub_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sensor_pub_py build --build-base /home/bagus/ichimonji/ros2-logger/build/sensor_pub_py/build install --record /home/bagus/ichimonji/ros2-logger/build/sensor_pub_py/install.log --single-version-externally-managed install_data
